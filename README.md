@@ -1,0 +1,1 @@
+Este proyecto consiste en el desarrollo de un carrito de compras para máquinas arcade, implementado utilizando tecnologías web estándar como HTML, CSS, Bootstrap, y JavaScript.

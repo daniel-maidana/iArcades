@@ -1,0 +1,241 @@
+
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #f1faee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px ;
+}
+.reseñas{
+    display: grid;
+   /* grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    /*grid-template-rows: ;*/
+    gap: 1rem;
+    height: 30rem;
+    padding-bottom: 250px;
+
+}
+
+.reseña:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+@media(width < 500px){
+    .reseñas{
+        grid-template-columns: repeat(2, 1fr); 
+
+    }
+}
+
+
+.reseña{
+   
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+form{
+    text-align: center;
+    font-size: 30px;    
+
+    
+}
+input{
+    font-size: 25px; 
+}
+button{
+    font-size: 25px; 
+}
+header{
+    background-color: #384B70;
+    text-align: center;
+    margin: 20px 10px 15px 20px;
+}
+
+
+body{
+    background-color: #507687;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+   
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.atribucion{
+    font-size: 10px;
+}
+
+.redes{
+    text-align: center;
+}
+
+.vermas{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 15px;
+    
+}
+nav ul{
+    justify-content: center;
+}
+/*
+.imgarcades{
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-wrap: wrap;*/
+   /* display: flex;
+    gap: 1rem;
+    /*si uso gap no hay margin*/
+    /*border: 1px solid black;
+
+    grid-template-columns: repeat(4 ,1fr);
+}*/
+ 
+
+img{
+    border-radius: 50%;
+}
+.fotoperfil{
+    text-align: center;
+}
+
+.saludo{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+
+}
+
+nav{
+    text-align: center;
+}
+form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FCFAEE;
+    color: #023047;
+
+}
+label{
+    color: black;
+}
+
+
+main p{
+    color: white;
+    font-size: 45px;
+}
+h2{
+    
+    font-size: 60px;
+    
+}
+main a {
+    color: black;
+}
+
+
+
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  
+
+}
+.tarjeta{
+    border: 1px solid black;
+   padding: 2rem;
+   width: 600px;
+    
+   
+    
+}
+.tarjeta:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#cursos{   
+    margin-top: 10px;
+    border: 15px solid rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    /*flex-direction: row; por defecto*/
+    flex-direction: column;
+}
+#cursos img{
+    width: 100%;
+}
+/*ver 1:35*/
+
+section h2{
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+.reseña{
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+section p{
+    color: white;
+    font-size: 26px;
+}
+
+h5{
+    font-size: 60px;
+}
+cite{
+    font-size: 20px;
+    color: black;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #B8001F;
+    background-color: #FCFAEE;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 300px;
+}
+i{
+    font-size: 30px;
+    color: white;
+}
