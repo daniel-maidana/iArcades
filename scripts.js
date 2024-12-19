@@ -42,6 +42,6 @@ for(let indice = 0; indice < productos.length; indice++){
 }
 
 
-
+git
 const contenedorCursos = document.getElementById("contenedorCursos");
 contenedorCursos.innerHTML = cursosHTML;
