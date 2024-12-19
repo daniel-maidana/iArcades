@@ -507,5 +507,14 @@ footer{
 i{
     font-size: 30px;
     color: white;
+<<<<<<< HEAD
 >>>>>>> a35556c (fix footer and mediaquery)
 }
+=======
+}
+.boton-agregar-carrito{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}   
+>>>>>>> 0af946d (add js)

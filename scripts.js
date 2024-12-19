@@ -35,13 +35,33 @@ for(let indice = 0; indice < productos.length; indice++){
             <h3>Precio: $${productos[3].precio}</h3>
             <p>${productos[indice].descripcion}</p>
             
-            <input id="boton-agregar-carrito" type="button" value="Agregar al carrito">
+            <input class="boton-agregar-carrito" type="button" value="Agregar al carrito">
 
         </div>  
 `;
 }
 
 
-git
+
 const contenedorCursos = document.getElementById("contenedorCursos");
 contenedorCursos.innerHTML = cursosHTML;
+
+
+//agregar un listeners a los botones de los productos
+//Guardar en variables los elementoshtml que vamos a modificar
+const botonesAgregar = document.querySelectorAll(".boton-agregar-carrito");
+
+const listaCarrito = document.querySelector("#carrito ul");
+
+const totalCarrito = document.querySelector("#carrito p");
+
+let totalAPagar = 0;
+
+//agregamos al listener cada boton 
+for(let indice = 0; indice < botonesAgregar.length; indice++){
+
+    function agregarElemCarrito(){
+        
+    }
+    botonesAgregar[indice].addEventListener("click", agregarElemCarrito);
+}
