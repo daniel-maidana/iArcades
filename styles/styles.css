@@ -28,28 +28,7 @@ a{
     }
 }*/
 
-@media(max-width: 1250px){
-    .reseñas{
-        grid-template-columns: repeat(2, minmax(48%, 1fr));
-    }
-}
-@media(max-width: 820px){
-    .reseñas{
-        grid-template-columns: minmax(90%, 1fr); 
-    }
 
-    header img {
-        width: 100%;
-    }
-
-    form input, textarea {
-        width: 90%;
-    }
-
-    h2, h4, h5 {
-        font-size: 40px;
-    }
-}
 
 
 
@@ -253,6 +232,31 @@ cite{
     padding-bottom: 250px;
 
 }
+
+@media(max-width: 1250px){
+    .reseñas{
+        grid-template-columns: repeat(2, minmax(48%, 1fr));
+    }
+}
+@media(max-width: 820px){
+    .reseñas{
+        grid-template-columns: minmax(90%, 1fr); 
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    form input, textarea {
+        width: 90%;
+    }
+
+    h2, h4, h5 {
+        font-size: 40px;
+    }
+}
+
+
 footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #B8001F;
