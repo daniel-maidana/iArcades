@@ -20,7 +20,31 @@ const productos = [
     {
         nombre : "Arcade Simpsons",
         descripcion : "Simspsons",
+        imagen: "imagenes/arcade4.png",
+        precio: 378000
+    },
+    {
+        nombre : "Arcade Mario Bross",
+        descripcion : "Mario Bross",
         imagen: "imagenes/arcade5.png",
+        precio: 378000
+    },  
+    {
+        nombre : "Arcade Fighter",
+        descripcion : "Fighter plus",
+        imagen: "imagenes/arcade6.png",
+        precio: 378000
+    },  
+    {
+        nombre : "Arcade Street fighter",
+        descripcion : "Street fighter",
+        imagen: "imagenes/arcade7.png",
+        precio: 378000
+    },  
+    {
+        nombre : "Arcade Duff",
+        descripcion : "Duff",
+        imagen: "imagenes/arcade8.png",
         precio: 378000
     },  
 
