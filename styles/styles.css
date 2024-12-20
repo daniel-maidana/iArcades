@@ -162,7 +162,7 @@ main a {
 
 }
 .tarjeta{
-    border: 1px solid black;
+    
    padding: 2rem;
    width: 600px;
     
@@ -175,7 +175,7 @@ main a {
 }
 #cursos{   
     margin-top: 10px;
-    border: 15px solid rgb(0, 0, 0);
+    
     padding: 15px;
     display: flex;
     /*flex-direction: row; por defecto*/
